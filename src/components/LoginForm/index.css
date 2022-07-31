@@ -1,0 +1,86 @@
+.login-form-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 20px;
+  height: 50vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    padding: 20px;
+    height: 55vh;
+    width: 30vw;
+    border-radius: 10px;
+  }
+}
+
+.website-logo {
+  max-height: 50px;
+  max-width: 80px;
+  align-self: center;
+  margin: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    max-height: 50px;
+    max-width: 140px;
+    align-self: center;
+    margin: 20px;
+  }
+}
+
+.label-name {
+  font-family: 'Consolas';
+  font-size: 13px;
+  color: #f1f5f9;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 97%;
+  height: 32px;
+  background-color: transparent;
+  border: solid 1px #475569;
+  color: #7e858e;
+  padding: 5px;
+  font-size: 12px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.login-button {
+  height: 35px;
+  margin-top: 25px;
+  width: 97%;
+  color: #ffffff;
+  background-color: #6366f1;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.error-message {
+  color: red;
+  font-size: 10px;
+}

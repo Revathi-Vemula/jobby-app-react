@@ -1,0 +1,154 @@
+.vacancy-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-container {
+    padding: 20px;
+  }
+}
+
+.company-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-logo-img {
+  height: 45px;
+  width: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo-img {
+    height: 65px;
+    width: 65px;
+  }
+}
+
+.job-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.job-title {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+  text-decoration-line: none;
+  font-family: 'Consolas';
+}
+
+@media screen and (min-width: 768px) {
+  .job-title {
+    font-size: 20px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.star-rating-icon {
+  color: #fbbf24;
+  height: 15px;
+  width: 15px;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .star-rating-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+  }
+  .rating {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+}
+
+.rating {
+  margin-top: 0;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Consolas';
+}
+
+.location-emp-type-package {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.job-type-location-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-job-type {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.icon-location-brief {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.location-emp-type {
+  color: #ffffff;
+  font-family: 'Consolas';
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.package {
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.separator-job-item {
+  width: 100%;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.job-desc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-family: 'Consolas';
+}
+
+.desc-heading {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.job-desc {
+  font-size: 14px;
+  margin-top: 5px;
+}
