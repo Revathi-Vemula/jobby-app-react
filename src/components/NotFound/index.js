@@ -1,7 +1,6 @@
 import Header from '../Header'
 import './index.css'
 
-const caption = `we're sorry, the page you requested could not be found`
 const NotFound = () => (
   <>
     <Header />
@@ -12,7 +11,7 @@ const NotFound = () => (
         className="route-not-found"
       />
       <h1 className="heading">Page Not Found</h1>
-      <p className="caption">{caption}</p>
+      <p className="caption">{`we're sorry, the page you requested could not be found`}</p>
     </div>
   </>
 )

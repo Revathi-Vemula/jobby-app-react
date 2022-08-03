@@ -109,7 +109,7 @@ class SpecificJobDetails extends Component {
       <button
         className="retry-button-api-failure"
         type="button"
-        onClick={this.getSpecificJobDetails()}
+        onClick={this.getSpecificJobDetails}
       >
         Retry
       </button>

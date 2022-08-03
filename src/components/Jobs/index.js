@@ -222,12 +222,12 @@ class Jobs extends Component {
       />
       <h1 className="heading-api-failure">OOPS! Something Went Wrong</h1>
       <p className="api-failure-caption">
-        We cannot seem to ding the page you are looking for.
+        We cannot seem to find the page you are looking for.
       </p>
       <button
         className="retry-button-api-failure"
         type="button"
-        onClick={this.getJobsList()}
+        onClick={this.getJobsList}
       >
         Retry
       </button>
